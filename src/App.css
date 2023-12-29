@@ -1,0 +1,79 @@
+html{
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 1%;
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo img{
+    width: 90px;
+    height: 70px;
+}
+
+.logo p:nth-child(1){
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.logo p:nth-child(2){
+    font-size: 1.1rem;
+    margin: 0;
+    font-style: italic;
+}
+
+.sign-in{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sign-in img{
+    width: 30px;
+    height: 30px;
+    transition: transform .7s ease-in-out;
+}
+
+.sign-up{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-weight: 600;
+    border: 2px solid hsla(0,0%,100%,.3);
+    padding: 2px 5px;
+    transition: transform .7s ease-in-out;
+}
+
+.sign-up img:hover{
+    transform: rotate(360deg);
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem;
+}

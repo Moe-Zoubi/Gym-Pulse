@@ -13,6 +13,23 @@ ul{
     padding: 0;
 }
 
+@media screen and (max-width:600px){
+    /* navbar */
+    .sign-up{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:1100px){
+    /* navbar */
+    .toggle-links{
+        display: contents !important;
+    }
+    .links-container{
+        display: none;
+    }
+}
+
 /* navbar */
 .navbar{
     display: flex;
@@ -22,6 +39,59 @@ ul{
     background-color: #191919;
     color: white;
 }
+
+.hide-mobile-nav{
+    display: none;
+}
+
+.show-mobile-nav{
+    position: fixed;
+    background-color: #f3f3f3;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 998;
+    color: #191919;
+}
+
+.close-nav{
+    text-align: right;
+    margin-right: 2rem;
+    font-size: 2rem;
+    color: #FE0000;
+    cursor: pointer;
+}
+
+.mobile-links{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.mobile-links li{
+    transition: all 0.3s ease;
+}
+
+.mobile-links li:hover{
+    font-size: 1.7rem;
+    color:#FE0000;
+}
+
+.toggle-links{
+    display: none;
+    transition: color 0.5s ease;
+}  
+
+.toggle-links:hover{
+    color: #FE0000;
+} 
 
 .logo{
     display: flex;
@@ -53,12 +123,22 @@ ul{
     gap: 15px;
 }
 
-.sign-in img{
+.sign-up img{
     width: 30px;
     height: 30px;
     transition: transform .7s ease-in-out;
     cursor: pointer;
 }
+
+.user-icon, .chart-icon{
+    font-size: 1.7rem;
+    transition: color 0.5s ease;
+}
+
+.user-icon:hover, .chart-icon:hover{
+    color: #FE0000;
+}
+
 
 .sign-up{
     display: flex;
@@ -88,4 +168,51 @@ ul{
 .links li:hover{
     color: #FE0000;
     cursor: pointer;
+}
+
+/*info banner*/
+.show-banner{
+    display: contents;
+}
+
+.hide-banner{
+    display: none;
+}
+
+.flex-info{
+    display: flex;
+    flex-direction: column;
+    background-color: #fcfcfc;
+    color: #191919;
+    width: 340px;
+    height: 100vh;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    padding: 0 30px;
+}
+
+.info-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.close-info{
+    color: #FE0000;
+}
+
+.about-info{
+    margin: 1rem 0;
+}
+
+.about-info h3{
+    font-size: 2rem;
+}
+
+.about-info p{
+    font-size: 1.2rem;
+    color: #888787;
 }

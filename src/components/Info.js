@@ -1,6 +1,7 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import { faXmark, faLocation, faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import logo from "../images/homepage/gym-logo.png";
+import SmallGallery from "./SmallGallery";
 
 
 function Info({show, handleClose}){
@@ -27,16 +28,18 @@ function Info({show, handleClose}){
                         levels of fitness enthusiasts in a welcoming and supportive environment.
                     </p>
                 </div>
+                <SmallGallery />
                 <div className="contact-info">
                     <h3>Contact Us</h3>
-                    <p><FontAwesomeIcon icon={faLocation} /> 32 Street, House Manhattan City</p>
-                    <p><FontAwesomeIcon icon={faPhone} /> +123-4370006568</p>
-                    <p><FontAwesomeIcon icon={faEnvelope} /> gympulse@gmail.com</p>
+                    <p><FontAwesomeIcon icon={faLocation} className="red" /> 32 Street, House Manhattan City</p>
+                    <p><FontAwesomeIcon icon={faPhone} className="red" /> +123-4370006568</p>
+                    <p><FontAwesomeIcon icon={faEnvelope} className="red" /> gympulse@gmail.com</p>
                 </div>
                 <div className="socials-info">
-                    <FontAwesomeIcon icon={faLocation} />
-                    <FontAwesomeIcon icon={faLocation}/>
-                    <FontAwesomeIcon icon={faLocation}/>
+                    <h3>Follow Us</h3>
+                    <i className="fab fa-facebook"></i>
+                    <i className="fab fa-twitter"></i>
+                    <i className="fab fa-instagram"></i>
                 </div>
             </div>
         </div>

@@ -13,6 +13,10 @@ ul{
     padding: 0;
 }
 
+.red{
+    color: #FE0000;
+}
+
 @media screen and (max-width:600px){
     /* navbar */
     .sign-up{
@@ -181,6 +185,8 @@ ul{
 
 .flex-info{
     display: flex;
+    overflow-y: scroll;
+    scrollbar-color: #FE0000 ;
     flex-direction: column;
     background-color: #fcfcfc;
     color: #191919;
@@ -192,6 +198,28 @@ ul{
     left: 0;
     padding: 0 30px;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1Fe;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #FE0000;
+    border-radius: 15px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f00c0c;
+  }
+
 
 .info-header{
     display: flex;
@@ -215,4 +243,49 @@ ul{
 .about-info p{
     font-size: 1.2rem;
     color: #888787;
+}
+
+/* gallery */
+.gallery-info{
+    margin-bottom: 2rem;
+}
+.gallery-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 7px;
+}
+
+.gallery-grid img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/*contact*/
+.contact-info p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+
+.contact-info p:hover{
+    color: #FE0000;
+}
+
+/*socials*/
+.socials-info .fa-instagram,
+.socials-info .fa-twitter,
+.socials-info .fa-facebook{
+    background-color: #FE0000;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+}
+
+.socials-info .fa-facebook{
+    margin-left: 0;
 }

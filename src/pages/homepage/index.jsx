@@ -47,6 +47,56 @@ const HomePage = () => {
                 </div>
                 <AboutBanner />
             </div>
+            <div className="featured-classes">
+                <div className="section-heading">
+                    <h3>OUR FEATURED CLASSES</h3>
+                    <h2>We Are Offering Best Flexible Classes</h2>
+                </div>
+                <div className="classes-grid">
+                    <div className="parent col-2">
+                        <div className="class one"></div>
+                        <div className="grid-item">
+                            <h3>CrossFit</h3>
+                            <p>Wednesday: 9:00am-10:00am</p>
+                        </div>
+                    </div>
+                    <div className="parent">
+                        <div className="class two"></div>
+                        <div className="grid-item">
+                            <h3>Karate</h3>
+                            <p>Friday: 10:00am-11:00am</p>
+                        </div>
+                    </div>
+                    <div className="parent">
+                        <div className="class three"></div>
+                        <div className="grid-item">
+                            <h3>Martial Arts</h3>
+                            <p>Saturday: 9:00am-10:00am</p>
+                        </div>
+                    </div>
+                    <div className="parent">
+                        <div className="class four"></div>
+                        <div className="grid-item">
+                            <h3>Power</h3>
+                            <p>Friday: 1:00pm-2:00pm</p>
+                        </div>
+                    </div>
+                    <div className="parent">
+                        <div className="class five"></div>
+                        <div className="grid-item">
+                            <h3>Yoga</h3>
+                            <p>Sunday: 6:00pm-7:00pm</p>
+                        </div>
+                    </div>
+                    <div className="parent col-2">
+                        <div className="class six"></div>
+                        <div className="grid-item col-2">
+                            <h3>Workout</h3>
+                            <p>Monday: 4:00pm-5:00pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

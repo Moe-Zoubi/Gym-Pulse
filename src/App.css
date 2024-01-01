@@ -17,6 +17,20 @@ ul{
     color: #FE0000;
 }
 
+.section-heading{
+    text-align: center;
+}
+
+.section-heading h2{
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.section-heading h3{
+    font-size: 1.7rem;
+    margin-bottom: 0;
+}
+
 @media screen and (max-width:600px){
     /* navbar */
     .sign-up{

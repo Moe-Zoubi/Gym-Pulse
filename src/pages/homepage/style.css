@@ -84,7 +84,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0 15%;
+    padding: 2% 15%;
 }
 
 .about-services{
@@ -97,30 +97,123 @@
     box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
     width: 25%;
     text-align: center;
-    border: 2px solid black;
     border-radius: 15px 0 15px 0;
     padding: 2rem 1rem;
-    margin-top: -4rem;
+    margin-top: -8rem;
     background-color: white;
     transition: all 0.2s ease;
 }
 
 .about-services p{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    
+}
+
+.about-services h3{
+    font-size: 1.8rem;
     
 }
 
 .progression:hover{
     background: linear-gradient(rgba(107, 107, 107, 0.5), rgba(0, 0, 0, 0.7)),
     url("../../images/gallery/img08.jpg") center/cover no-repeat;
+    color: white;
 }
 
 .workout:hover{
     background: linear-gradient(rgba(107, 107, 107, 0.5), rgba(0, 0, 0, 0.7)),
     url("../../images/gallery/img11.jpg") center/cover no-repeat;
+    color: white;
 }
 
 .nutrition:hover{
     background: linear-gradient(rgba(107, 107, 107, 0.5), rgba(0, 0, 0, 0.7)),
     url("../../images/gallery/img03.jpg") center/cover no-repeat;
+    color: white;
 }
+
+/* classes */
+.featured-classes{
+    padding:2% 15%;
+}
+
+.classes-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row: 1fr 1fr;
+    gap: 2rem;
+}
+
+.col-2{
+    grid-column: span 2;
+}
+
+.parent{
+    overflow: hidden;
+    position: relative;
+}
+
+.grid-item{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.grid-item p{
+    margin: 0 0 1.5rem 1rem;
+    font-size: 1.3rem;
+    padding: 5px 20px;
+    background-color: #d82d2d;
+    width: max-content;
+}
+
+.grid-item h3{
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+.class{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+}
+
+.parent:hover .class{
+    transform: scale(1.2);
+}
+
+.one{
+    background: linear-gradient(rgba(107, 107, 107, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../../images/gallery/img15.jpg") center/cover no-repeat;
+}
+
+.two{
+    background: linear-gradient(rgba(107, 107, 107, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../../images/gallery/img08.jpg") center/cover no-repeat;
+}
+.three{
+    background: linear-gradient(rgba(107, 107, 107, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../../images/gallery/img13.jpg") center/cover no-repeat;
+}
+
+.four{
+    background: linear-gradient(rgba(107, 107, 107, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../../images/gallery/img02.jpg") center/cover no-repeat;
+}
+
+.five{
+    background: linear-gradient(rgba(107, 107, 107, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../../images/gallery/img05.jpg") center/cover no-repeat;
+}
+
+.six{
+    background: linear-gradient(rgba(107, 107, 107, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../../images/gallery/img14.jpg") center/cover no-repeat;
+}
+

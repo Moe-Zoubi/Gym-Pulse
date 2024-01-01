@@ -275,6 +275,10 @@ ul{
 }
 
 /*socials*/
+.socials-info{
+    padding-bottom: 2rem;
+}
+
 .socials-info .fa-instagram,
 .socials-info .fa-twitter,
 .socials-info .fa-facebook{
@@ -288,4 +292,87 @@ ul{
 
 .socials-info .fa-facebook{
     margin-left: 0;
+}
+
+/* about us section */
+.about-container{
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin: 6rem 0;
+}
+
+.about-us, .girl-running{
+    width: 50%;
+}
+
+.about-us h3{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.about-us h2{
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+.about-us p{
+    margin: 0 0 3.5rem 0;
+    font-size: 1.5rem;
+}
+
+.about-us button{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+    background-color: #191919;
+    border: 2px solid #191919;
+    padding: 1rem;
+    margin-top: 2.5rem;
+    transition: background 0.5s ease-in-out;
+}
+
+.about-us button:hover{
+    background-color: white;
+    color: #191919;
+}
+
+.icons-container{
+    display: flex;
+}
+
+.icons-container div{
+    padding: 5px 10px;
+}
+
+.icons-container p{
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.icons-container div:nth-child(2){
+    border-right: 2px solid #888787;
+    border-left: 2px solid #888787;
+}
+
+.icons-container img{
+    width: 100%;
+}
+
+.girl-running{
+    position: relative;
+    height: 600px;
+}
+
+.girl-running img{
+    position: absolute;
+}
+
+.girl-running img:nth-child(1){
+    right: 0;
+}
+
+.girl-running img:nth-child(2){
+    left: 40%;
 }

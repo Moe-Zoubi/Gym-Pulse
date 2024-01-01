@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    padding-right: 4rem;
 }
 
 .hero-intro{
@@ -12,7 +11,8 @@
     display: flex;
     justify-content: end;
     gap: 3rem;
-    margin: 15% 0;
+    margin: 12% 0;
+    padding-right: 4rem;
 }
 
 .hero-text h2{
@@ -76,4 +76,51 @@
 
 .hero-socials i:hover{
     color: #FE0000;
+}
+
+/*about banner*/
+.about-banner{
+    background-image: url("../../images/homepage/home-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 15%;
+}
+
+.about-services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progression, .workout, .nutrition{
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+    width: 25%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px 0 15px 0;
+    padding: 2rem 1rem;
+    margin-top: -4rem;
+    background-color: white;
+    transition: all 0.2s ease;
+}
+
+.about-services p{
+    font-size: 1.3rem;
+    
+}
+
+.progression:hover{
+    background: linear-gradient(rgba(107, 107, 107, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../../images/gallery/img08.jpg") center/cover no-repeat;
+}
+
+.workout:hover{
+    background: linear-gradient(rgba(107, 107, 107, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../../images/gallery/img11.jpg") center/cover no-repeat;
+}
+
+.nutrition:hover{
+    background: linear-gradient(rgba(107, 107, 107, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../../images/gallery/img03.jpg") center/cover no-repeat;
 }

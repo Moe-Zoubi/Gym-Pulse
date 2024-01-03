@@ -6,6 +6,7 @@ import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import clock from "../../images/homepage/clock.png";
 import nutrition from "../../images/homepage/nutrition.png";
 import dumbbell from "../../images/homepage/dumbbell.png";
+import ChooseUs from "../../components/ChooseUs";
 
 
 const HomePage = () => {
@@ -97,6 +98,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
+            <ChooseUs />
         </div>
     )
 }

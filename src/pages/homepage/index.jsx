@@ -7,6 +7,7 @@ import clock from "../../images/homepage/clock.png";
 import nutrition from "../../images/homepage/nutrition.png";
 import dumbbell from "../../images/homepage/dumbbell.png";
 import ChooseUs from "../../components/ChooseUs";
+import Trainers from "../../components/Trainers";
 
 
 const HomePage = () => {
@@ -99,6 +100,7 @@ const HomePage = () => {
                 </div>
             </div>
             <ChooseUs />
+            <Trainers />
         </div>
     )
 }

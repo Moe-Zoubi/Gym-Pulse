@@ -321,3 +321,87 @@
 .item img:hover{
     background-color: #FE0000;
 }
+
+/* trainers section */
+.trainer-section{
+    background: url(../../images/trainers/dot-bg.png) center/cover no-repeat;
+    padding: 5rem 15%;
+    text-align: center;
+}
+
+.trainer-section h3{
+    background: url(../../images/choose-us/title-bg.svg) center no-repeat;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.trainer-section h2{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.trainer-section p{
+    font-size: 1.6rem;
+    margin-bottom: 0;
+    width: 50%;
+    margin: 2rem auto;
+    color: #636363;
+}
+
+.trainer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.trainer{
+    width: 30%;
+}
+
+.trainer > img{
+    background: url(../../images/trainers/trainer-bg.png) center/cover no-repeat;
+    overflow: visible;
+    margin-bottom: 0;
+}
+
+.trainer-info{
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+    border-radius: 15px;
+}
+
+.trainer-info h2{
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.trainer-info p{
+    font-size: 1.3rem;
+    margin: 0 auto;
+}
+
+.trainers-socials{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0   ;
+}
+
+.trainers-socials img{
+    width: 30px;
+    padding: 1rem 0;
+}
+
+.red-line{
+    background-color: #FE0000;
+    height: 5px;
+    width: 20%;
+    margin: auto;
+    border-radius: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.trainer-info:hover .red-line{
+    width: 100%;
+}

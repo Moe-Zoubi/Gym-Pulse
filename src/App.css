@@ -31,6 +31,16 @@ ul{
     margin-bottom: 0;
 }
 
+.gray-bg{
+    background-color: #b3b0b0;
+    padding: 1rem;
+}
+
+.white-bg{
+    background-color: white;
+    padding: 2.5rem;
+}
+
 @media screen and (max-width:600px){
     /* navbar */
     .sign-up{
@@ -176,7 +186,7 @@ ul{
 .links{
     display: flex;
     gap: 20px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .links li{
@@ -187,6 +197,7 @@ ul{
     color: #FE0000;
     cursor: pointer;
 }
+
 
 /*info banner*/
 .show-banner{

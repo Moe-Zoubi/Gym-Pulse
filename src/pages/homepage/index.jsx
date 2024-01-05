@@ -8,6 +8,7 @@ import nutrition from "../../images/homepage/nutrition.png";
 import dumbbell from "../../images/homepage/dumbbell.png";
 import ChooseUs from "../../components/ChooseUs";
 import Trainers from "../../components/Trainers";
+import Reviews from "../../components/Reviews";
 
 
 const HomePage = () => {
@@ -101,6 +102,7 @@ const HomePage = () => {
             </div>
             <ChooseUs />
             <Trainers />
+            <Reviews />
         </div>
     )
 }

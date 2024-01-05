@@ -16,7 +16,9 @@ function Trainers() {
             <p>Expert team of coaches helps you succeed in any goal, personalized guidance and motivation provided!</p>
             <div className="trainer-container">
                 <div className="trainer">
-                    <img src={trainer1} alt="trainer" />
+                    <div className="trainer-img">
+                        <img src={trainer1} alt="trainer" />
+                    </div>
                     <div className="trainer-info">
                         <h2>James Carter</h2>
                         <p>Boxing Trainer</p>
@@ -29,7 +31,9 @@ function Trainers() {
                     </div>
                 </div>
                 <div className="trainer">
-                    <img src={trainer2} alt="trainer" />
+                    <div className="trainer-img">
+                        <img src={trainer2} alt="trainer" />
+                    </div>
                     <div className="trainer-info">
                         <h2>Jone Smith</h2>
                         <p>Swimming Instructor</p>
@@ -42,7 +46,9 @@ function Trainers() {
                     </div>
                 </div>
                 <div className="trainer">
-                    <img src={trainer3} alt="trainer" />
+                    <div className="trainer-img">
+                        <img src={trainer3} alt="trainer" />
+                    </div>
                     <div className="trainer-info">
                         <h2>Ellie Goldberg</h2>
                         <p>Yoga Isntructor</p>

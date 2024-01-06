@@ -149,6 +149,10 @@
     grid-column: span 2;
 }
 
+.row-2{
+    grid-row: span 2;
+}
+
 .parent{
     overflow: hidden;
     position: relative;

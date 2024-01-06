@@ -9,6 +9,7 @@ import dumbbell from "../../images/homepage/dumbbell.png";
 import ChooseUs from "../../components/ChooseUs";
 import Trainers from "../../components/Trainers";
 import Reviews from "../../components/Reviews";
+import HomeGallery from "../../components/HomeGallery";
 
 
 const HomePage = () => {
@@ -103,6 +104,7 @@ const HomePage = () => {
             <ChooseUs />
             <Trainers />
             <Reviews />
+            <HomeGallery />
         </div>
     )
 }

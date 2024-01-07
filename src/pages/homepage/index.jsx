@@ -10,6 +10,7 @@ import ChooseUs from "../../components/ChooseUs";
 import Trainers from "../../components/Trainers";
 import Reviews from "../../components/Reviews";
 import HomeGallery from "../../components/HomeGallery";
+import BmiBanner from "../../components/BmiBanner";
 
 
 const HomePage = () => {
@@ -105,6 +106,7 @@ const HomePage = () => {
             <Trainers />
             <Reviews />
             <HomeGallery />
+            <BmiBanner />
         </div>
     )
 }

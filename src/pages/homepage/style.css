@@ -466,6 +466,7 @@
     color: #bdbdbd;
 }
 
+/*Home Page Gallery*/
 .home-gallery{
     border-top: 2px solid #cccccc;
     text-align: center;
@@ -483,9 +484,9 @@
 }
 
 .home-gallery p{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     width: 50%;
-    margin: 2rem auto;
+    margin: 1rem auto 2rem auto;
     color: #636363;
 }
 
@@ -536,4 +537,62 @@
     height: 300px;
     grid-column-start: 2;
     grid-column-end: 2;
+}
+
+/* BMI Banner*/
+.bmi-banner{
+    background: url(../../images/bmi/bmi-background.jpg) center/cover no-repeat;
+    color: white;
+    padding: 2rem 0;
+}
+
+.bmi-text{
+    margin-left: 25%;
+    width: 60%;
+}
+
+.bmi-text h2{
+    font-size: 3.2rem;
+    margin-bottom: 0;
+}
+
+.bmi-text > p{
+    color: #cccccc;
+    font-size: 1.7rem;
+    width: 50%;
+}
+
+.calculate-bmi form{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.calculate-bmi form input{
+    padding: 1rem 1rem;
+    background-color: transparent;
+    border: 2px solid #636363;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.calculate-bmi p{
+    display: flex;
+    gap: 9.3rem;
+    font-size: 1.3rem;
+}
+
+.calculate-bmi button{
+    padding: 1rem 2rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    background-color: #636363;
+    margin-top: 1rem;
+    color: white;
+    border: none;
+    transition: background 0.5s ease-in-out;
+}
+
+.calculate-bmi button:hover{
+    background-color: #FE0000;
 }

@@ -11,6 +11,7 @@ import Trainers from "../../components/Trainers";
 import Reviews from "../../components/Reviews";
 import HomeGallery from "../../components/HomeGallery";
 import BmiBanner from "../../components/BmiBanner";
+import Pricing from "../../components/Pricing";
 
 
 const HomePage = () => {
@@ -107,6 +108,7 @@ const HomePage = () => {
             <Reviews />
             <HomeGallery />
             <BmiBanner />
+            <Pricing />
         </div>
     )
 }

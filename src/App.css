@@ -401,3 +401,115 @@ ul{
 .girl-running img:nth-child(2){
     left: 40%;
 }
+
+/*Pricing Plan*/
+.pricing-section{
+    padding: 4rem 15%;
+    text-align: center;
+    background-image: url(./images/pricing/bg-text.png), url(./images/pricing/bg-dumbell.png), url(./images/pricing/pricing-bg.jpg);
+    background-position: left top, right bottom, center;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 400px, 400px,  cover;
+}
+
+.pricing-section h3{
+    background: url(./images/choose-us/title-bg.svg)  center no-repeat;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.pricing-section h2{
+    font-size: 2.5rem;
+}
+
+.pricing-section > p{
+    font-size: 1.3rem;
+    color: #888787;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+.plan{
+    width: 30%;
+}
+
+.plan-type{
+    background-color: white;
+    width: 80%;
+    margin: 0;
+    padding: 1rem 0 0 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.plan-img01:hover p, .plan-img02:hover p, .plan-img03:hover p{
+    color: #FE0000;
+}
+
+.plan-img01, .plan-img02, .plan-img03{
+    margin-bottom: 0;
+    height: 300px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.plan-img01{
+    background: url(./images/pricing/img1.jpg) center/cover no-repeat;
+}
+
+.plan-img02{
+    background: url(./images/pricing/img2.jpg) center/cover no-repeat;
+    height: 300px;
+}
+
+.plan-img03{
+    background: url(./images/pricing/img3.jpg) center/cover no-repeat;
+}
+
+.price-info{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 20%;
+    height: 400px;
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+}
+
+.price-info h2{
+    margin: 0;
+}
+
+.plan-services{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.plan-services li{
+    font-size: 1.2rem;
+    color: #616161;
+    font-weight: 700;
+}
+
+.price-info button{
+    padding: 1rem 2rem;
+    background-color: #FE0000;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: 2px solid #FE0000;
+    transition: all 0.4s ease-in-out;
+}
+
+.price-info button:hover{
+    background-color: transparent;
+    color: #FE0000;
+}

@@ -13,6 +13,7 @@ import HomeGallery from "../../components/HomeGallery";
 import BmiBanner from "../../components/BmiBanner";
 import Pricing from "../../components/Pricing";
 import HomeBlog from "../../components/HomeBlog";
+import Footer from "../../components/footer";
 
 
 const HomePage = () => {
@@ -116,6 +117,7 @@ const HomePage = () => {
                 <h3><span className="red">Call:</span> +123-456789</h3>
                 <button>PURCHASE NOW</button>
             </div>
+            <Footer />
         </div>
     )
 }

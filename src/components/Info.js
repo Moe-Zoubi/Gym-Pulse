@@ -37,7 +37,7 @@ function Info({show, handleClose}){
                 </div>
                 <div className="socials-info">
                     <h3>Follow Us</h3>
-                    <i className="fab fa-facebook"></i>
+                    <i className="fa fa-facebook-f"></i>
                     <i className="fab fa-twitter"></i>
                     <i className="fab fa-instagram"></i>
                 </div>

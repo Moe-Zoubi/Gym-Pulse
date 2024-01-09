@@ -1,7 +1,7 @@
 import facebook from "../images/social-media/facebook_icon.png";
 import instagram from "../images/social-media/instagram_icon.png";
 import twitter from "../images/social-media/twitter_icon.png";
-
+import logo from "../images/homepage/gym-logo.png";
 
 function Footer() {
 
@@ -16,12 +16,11 @@ function Footer() {
                         <p>Ultimate Gym</p>
                     </div>
                 </div>
-                <p>Take your health and body to the next level with our comprehensive program designed to help you reach your fitness goals.</p>
+                <p className="footer-text">Take your health and body to the next level with our comprehensive program designed to help you reach your fitness goals.</p>
                 <div className="footer-socials">
-                    <img src={facebook} alt="facebook icon" />
-                    <img src={instagram} alt="instagram icon" />
-                    <img src={twitter} alt="twitter icon" />
-                    <i class="fa-brands fa-youtube"></i>
+                    <i className="fa fa-facebook-f"></i>
+                    <i className="fab fa-twitter"></i>
+                    <i className="fab fa-instagram"></i>
                 </div>
             </div>
             <div className="footer-item">
@@ -38,7 +37,7 @@ function Footer() {
             <div className="footer-item">
                 <h3>Working Hours</h3>
                 <div className="footer-line"></div>
-                <ul>
+                <ul className="footer-time">
                     <li>Monday - Friday:</li>
                     <li>7:00am - 23:00pm</li>
                     <li>Saturday:</li>

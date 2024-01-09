@@ -306,17 +306,19 @@ ul{
 
 .socials-info .fa-instagram,
 .socials-info .fa-twitter,
-.socials-info .fa-facebook{
+.socials-info .fa-facebook-f{
     background-color: #FE0000;
     color: white;
     font-size: 1.5rem;
-    padding: 1rem 1rem;
+    padding: 1rem;
     border-radius: 50%;
     margin: 0 0.5rem;
 }
 
 .socials-info .fa-facebook{
     margin-left: 0;
+    width: 20px;
+    text-align: center;
 }
 
 /* about us section */
@@ -512,4 +514,72 @@ ul{
 .price-info button:hover{
     background-color: transparent;
     color: #FE0000;
+}
+
+/*footer*/
+.footer{
+    padding: 3rem 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-line{
+    width: 40%;
+    height: 4px;
+    background-color: #f00c0c;
+}
+
+.footer-item:nth-child(1){
+    width: 30%;
+}
+
+.footer-socials{
+    display: flex;
+    gap: 3rem;
+}
+
+
+.footer-text, .footer-item ul li{
+    font-size: 1.4rem;
+    color: #888787;
+}
+
+.footer-item .footer-time li:nth-child(odd){
+    font-weight: 700;
+    color: rgb(97, 97, 97);
+}
+
+.footer-item ul li{
+    margin-top: 1rem;
+}
+
+.footer h3{
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.footer-socials .fa-instagram,
+.footer-socials .fa-twitter,
+.footer-socials .fa-facebook-f{
+    background-color: #dadadab0;
+    color: #585858;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer-socials .fa-facebook-f{
+    width: 20px;
+    text-align: center;
+}
+
+.footer-socials .fa-instagram:hover,
+.footer-socials .fa-twitter:hover,
+.footer-socials .fa-facebook-f:hover{
+    color: white;
+    background-color: #f56d6d;
 }

@@ -670,3 +670,32 @@
     background-color: white;
     color: #FE0000;
 }
+
+/* contact banner */
+.call-banner{
+    background: url(../../images/homepage/call-bg.jpg) center/cover no-repeat;
+    padding: 2rem 20%;
+    color: white;
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.call-banner h2{
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.call-banner h3{
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.call-banner button{
+    font-size: 1.3rem;
+    padding: 1rem;
+    background-color: #FE0000;
+    color: white;
+    border: 2px solid #FE0000;
+    font-weight: 700;
+    cursor: pointer;
+}

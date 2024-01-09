@@ -111,6 +111,11 @@ const HomePage = () => {
             <BmiBanner />
             <Pricing />
             <HomeBlog />
+            <div className="call-banner">
+                <h2>Need a Fitness Trainer?</h2>
+                <h3><span className="red">Call:</span> +123-456789</h3>
+                <button>PURCHASE NOW</button>
+            </div>
         </div>
     )
 }

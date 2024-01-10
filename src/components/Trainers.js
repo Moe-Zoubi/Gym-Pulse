@@ -27,7 +27,7 @@ function Trainers() {
                             <img src={instagram} alt="instagram icon" />
                             <img src={twitter} alt="twitter icon" />
                         </div>
-                        <div className="red-line"></div>
+                        <div className="trainer-line"></div>
                     </div>
                 </div>
                 <div className="trainer">
@@ -42,7 +42,7 @@ function Trainers() {
                             <img src={instagram} alt="instagram icon" />
                             <img src={twitter} alt="twitter icon" />
                         </div>
-                        <div className="red-line"></div>
+                        <div className="trainer-line"></div>
                     </div>
                 </div>
                 <div className="trainer">
@@ -57,7 +57,7 @@ function Trainers() {
                             <img src={instagram} alt="instagram icon" />
                             <img src={twitter} alt="twitter icon" />
                         </div>
-                        <div className="red-line"></div>
+                        <div className="trainer-line"></div>
                     </div>
                 </div>
             </div>

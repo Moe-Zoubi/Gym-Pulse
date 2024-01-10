@@ -271,12 +271,6 @@
     color: white;
 }
 
-.choose-text h3{
-    background: url("../../images/choose-us/title-bg.svg") center no-repeat;
-    text-align: center;
-    font-size: large;
-}
-
 .choose-text h2{
     font-size: 3.5rem;
     margin-bottom: 1rem;
@@ -333,13 +327,6 @@
     background: url(../../images/trainers/dot-bg.png) center/cover no-repeat;
     padding: 5rem 15%;
     text-align: center;
-}
-
-.trainer-section h3{
-    background: url(../../images/choose-us/title-bg.svg) center no-repeat;
-    color: white;
-    margin-bottom: 2rem;
-    font-size: 1.4rem;
 }
 
 .trainer-section h2{
@@ -604,12 +591,6 @@
     padding: 2rem 15%;
 }
 
-.blog-banner h3{
-    background: url(../../images/choose-us/title-bg.svg)  center no-repeat;
-    color: white;
-    text-align: center;
-    font-size: 1.4rem;
-}
 
 .blog-banner h2{
     text-align: center;

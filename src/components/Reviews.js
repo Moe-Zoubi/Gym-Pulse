@@ -6,7 +6,7 @@ function Reviews() {
 
     return(
         <div className="review-section">
-            <h3>Reviews</h3>
+            <h3 className="center-title-bg">Reviews</h3>
             <div className="gray-bg">
                 <div className="white-bg">
                     <div className="review-container">

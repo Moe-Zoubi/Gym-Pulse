@@ -8,7 +8,7 @@ function HomeBlog() {
 
     return(
         <div className="blog-banner">
-            <h3>Latest Blog</h3>
+            <h3 className="center-title-bg">Latest Blog</h3>
             <h2>Our Recent News</h2>
             <p>Gymat an unknown printer took a galley of type and scrambled make a type specimen book.</p>
             <div className="recent-blogs">

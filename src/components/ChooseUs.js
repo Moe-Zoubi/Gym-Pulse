@@ -18,7 +18,7 @@ function ChooseUs(){
             <div className="choose-container">
                 <img src={main} alt="person" />
                 <div className="choose-text">
-                    <h3>WHY CHOOSE US</h3>
+                    <h3 className="center-title-bg">WHY CHOOSE US</h3>
                     <h2>We Can Give Shape To Your Body Here!</h2>
                     <p>
                         At Gymate, we are dedicated to helping you achieve the body of your dreams.

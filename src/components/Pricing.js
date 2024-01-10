@@ -7,7 +7,7 @@ function Pricing() {
 
     return(
         <div className="pricing-section">
-            <h3>PRICING PLANS</h3>
+            <h3 className="center-title-bg">PRICING PLANS</h3>
             <h2>Exclusive Pricing Plan</h2>
             <p>Gymat an unknown printer took a galley of type and scrambled make a type specimen book.</p>
             <div className="pricing-container">

@@ -11,7 +11,7 @@ function Trainers() {
 
     return(
         <div className="trainer-section">
-            <h3>GYM TRAINERS</h3>
+            <h3 className="center-title-bg">GYM TRAINERS</h3>
             <h2>Team Of Expert Coaches</h2>
             <p>Expert team of coaches helps you succeed in any goal, personalized guidance and motivation provided!</p>
             <div className="trainer-container">

@@ -1,4 +1,5 @@
 import Navbar from "../../components/Navbar";
+import Footer from "../../components/footer";
 
 
 const Blog = () => {
@@ -9,6 +10,7 @@ const Blog = () => {
             <div className="page-header">
                 <h2>Blog</h2>
             </div>
+            <Footer />
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import Navbar from "../../components/Navbar";
+import Footer from "../../components/footer";
 
 
 const Schedule = () => {
@@ -9,6 +10,7 @@ const Schedule = () => {
             <div className="page-header">
                 <h2>Schedule By Day</h2>
             </div>
+            <Footer />
         </div>
     )
 }

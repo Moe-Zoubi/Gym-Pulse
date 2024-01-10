@@ -1,4 +1,5 @@
 import Navbar from "../../components/Navbar";
+import Footer from "../../components/footer";
 
 
 const Pricing = () => {
@@ -9,6 +10,7 @@ const Pricing = () => {
             <div className="page-header">
                 <h2>Pricing</h2>
             </div>
+            <Footer />
         </div>
     )
 }

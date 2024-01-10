@@ -1,5 +1,9 @@
-.about-flex{
+.about-content{
+    background: url(../../images/homepage/home-bg.jpg) center/cover no-repeat;
     padding: 3rem 15%;
+}
+
+.about-flex{
     display: flex;
     justify-content: space-evenly;
 }
@@ -31,4 +35,44 @@
 .about-text button:hover{
     background-color: transparent;
     color: #FE0000;
+}
+
+.about-history{
+    margin: 4rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.history-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: white;
+}
+
+.history-text img{
+    height: 200px;
+}
+
+.history-text h2{
+    font-size: 2.5rem;
+}
+
+.history-text p{
+    width: 70%;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #888787;
+    margin-top: 0;
+}
+
+.about-img01{
+    background: url(../../images/about-us/about-img01.jpg) center/cover no-repeat   ;
+}
+
+.about-img02{
+    background: url(../../images/about-us/about-img02.jpg) center/cover no-repeat   ;
 }

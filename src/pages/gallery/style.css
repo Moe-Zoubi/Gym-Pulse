@@ -1,0 +1,15 @@
+
+
+.main-gallery{
+    padding: 3rem 15%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
+    gap: 1rem;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+img{
+    width: 400px;
+    height: 450px;
+}

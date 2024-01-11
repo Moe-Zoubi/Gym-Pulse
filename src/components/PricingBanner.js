@@ -2,7 +2,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 
-function Pricing() {
+function PricingBanner() {
 
 
     return(
@@ -67,4 +67,4 @@ function Pricing() {
 };
 
 
-export default Pricing;
+export default PricingBanner;

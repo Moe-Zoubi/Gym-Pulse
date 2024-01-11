@@ -11,9 +11,9 @@ import Trainers from "../../components/Trainers";
 import Reviews from "../../components/Reviews";
 import HomeGallery from "../../components/HomeGallery";
 import BmiBanner from "../../components/BmiBanner";
-import Pricing from "../../components/Pricing";
 import HomeBlog from "../../components/HomeBlog";
 import Footer from "../../components/footer";
+import PricingBanner from "../../components/PricingBanner";
 
 
 const HomePage = () => {
@@ -110,7 +110,7 @@ const HomePage = () => {
             <Reviews />
             <HomeGallery />
             <BmiBanner />
-            <Pricing />
+            <PricingBanner />
             <HomeBlog />
             <div className="call-banner">
                 <h2>Need a Fitness Trainer?</h2>

@@ -1,8 +1,9 @@
 import Navbar from "../../components/Navbar";
+import PricingBanner from "../../components/PricingBanner";
 import Footer from "../../components/footer";
 
 
-const PricingPage = () => {
+const Pricing = () => {
 
     return(
         <div className="pricing">
@@ -10,9 +11,10 @@ const PricingPage = () => {
             <div className="page-header">
                 <h2>Pricing</h2>
             </div>
+            <PricingBanner />
             <Footer />
         </div>
     )
 }
 
-export default PricingPage;
+export default Pricing;

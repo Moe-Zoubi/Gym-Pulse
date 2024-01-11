@@ -2,7 +2,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/footer";
 
 
-const Pricing = () => {
+const PricingPage = () => {
 
     return(
         <div className="pricing">
@@ -15,4 +15,4 @@ const Pricing = () => {
     )
 }
 
-export default Pricing;
+export default PricingPage;

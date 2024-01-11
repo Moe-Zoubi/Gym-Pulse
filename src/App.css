@@ -569,10 +569,16 @@ ul{
     gap: 3rem;
 }
 
+.footer-item:nth-child(2) ul li:hover{
+    color: #FE0000;
+    cursor: pointer;
+}
+
 
 .footer-text, .footer-item ul li{
     font-size: 1.4rem;
     color: #888787;
+    transition: all 0.4s ease-in-out;
 }
 
 .footer-item .footer-time li:nth-child(odd){

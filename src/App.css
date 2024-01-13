@@ -58,6 +58,12 @@ ul{
     padding-top: 1rem;
 }
 
+.red-underline{
+    text-decoration: underline;
+    text-decoration-color: #FE0000;
+    text-decoration-thickness: 4px;
+}
+
 @media screen and (max-width:600px){
     /* navbar */
     .sign-up{

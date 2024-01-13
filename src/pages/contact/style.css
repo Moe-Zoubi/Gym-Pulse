@@ -1,0 +1,119 @@
+.contact-container{
+    padding: 5rem 15%;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.contact-text, .contact-form{
+    width: 50%;
+}
+
+.contact-line{
+    background-color: #FE0000;
+    height: 4px;
+    width: 20%;
+    margin-bottom: 2rem;
+}
+
+.contact-text h2{
+    font-size: 2.7rem;
+}
+
+.contact-text  p{
+    font-size: 1.4rem;
+    color: #888787;
+    margin: 0;
+}
+
+.contact-text h4{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.contact-socials{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.contact-socials i{
+    background-color: #dadadab0;
+    color: #585858;
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 50%;
+    margin: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.contact-socials .fa-facebook-f{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.contact-socials .fa-instagram:hover,
+.contact-socials .fa-twitter:hover,
+.contact-socials .fa-facebook-f:hover{
+    color: white;
+    background-color: #f56d6d;
+}
+
+.contact-form{
+    background-color: #eceaea;
+    padding: 1rem 3rem;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-form h2{
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.contact-form form input, .contact-form form select{
+    padding: 1.5rem;
+    font-size: 14px;
+    border: 2px solid #dbdada;
+    
+}
+
+.contact-form form input::placeholder{
+    color: #a8a6a6;
+}
+
+.contact-form form select{
+    color: black;
+}
+
+.contact-form form textarea{
+    height: 140px;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+    color: #888787;
+    border: 2px solid #dbdada;
+}
+
+.contact-form form button{
+    width: 35%;
+    margin: 1rem auto 2rem auto;
+    padding: 1rem 0;
+    font-size: 18px;
+    color: white;
+    background-color: #fa3c3c;
+    border: 2px solid #fa3c3c;
+    cursor: pointer;
+}
+

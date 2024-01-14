@@ -1,79 +1,91 @@
+import cycling from "../images/classes/cycling.jpg";
+import meditation from "../images/classes/meditation.jpg";
+import boxing from "../images/gallery/img13.jpg";
+import karate from "../images/gallery/img13.jpg";
+import powerlifter from "../images/gallery/img04.jpg";
+import workout from "../images/gallery/img11.jpg";
+import crossfit from "../images/gallery/img15.jpg";
+import running from "../images/classes/running.jpg";
+import fitness from "../images/gallery/img08.jpg";
+import bodybuilding from "../images/gallery/img10.jpg";
+import mma from "../images/gallery/img13.jpg";
+import yoga from "../images/gallery/img05.jpg";
 
 
 
-const ClassData = [
+const classData = [
     {
         classname: "Cycling",
         trainer: "Dorian Yate",
         date: "Wed: 9:00 am",
-        img:"../images/classes/cycling.jpg",
+        img: cycling,
     },
     {
         classname: "Meditation",
         trainer: "Maria Mich",
         date: "Fri: 1:00 pm",
-        img:"../images/classes/meditation.jpg",
+        img: meditation,
     },
     {
         classname: "Boxing",
         trainer: "John Flex",
         date: "Tue: 4:00 pm",
-        img:"../images/gallery/img13.jpg",
+        img: boxing,
     },
     {
         classname: "Karate",
         trainer: "David Rich",
         date: "Sat: 9:00 am",
-        img:"../images/gallery/img13.jpg",
+        img: karate,
     },
     {
         classname: "Power Lifting",
         trainer: "Larry Wheels",
         date: "Mon: 8:00 pm",
-        img:"../images/gallery/img04.jpg",
+        img: powerlifter,
     },
     {
         classname: "Workout",
         trainer: "Shawn Ray",
         date: "Tue: 10:00 am",
-        img:"../images/gallery/img11.jpg",
+        img: workout,
     },
     {
         classname: "Crossfit",
         trainer: "Jenifer Alex",
         date: "Wen: 9:00 pm",
-        img:"../images/gallery/img15.jpg",
+        img: crossfit,
     },
     {
         classname: "Running",
         trainer: "Zinia Zessy",
         date: "Thu: 12:00 am",
-        img:"../images/classes/running.jpg",
+        img: running,
     },
     {
         classname: "Fitness",
         trainer: "Mia Paul",
         date: "Fri: 12:00 pm",
-        img:"../images/gallery/img08.jpg",
+        img: fitness,
     },
     {
         classname: "Body Building",
         trainer: "Paul Sneed",
         date: "Mon: 8:00 pm",
-        img:"../images/gallery/img10.jpg",
+        img: bodybuilding,
     },
     {
         classname: "Mma",
         trainer: "Becky Lynch",
         date: "Fri: 6:00 am",
-        img:"../images/gallery/img13.jpg",
+        img: mma,
     },
     {
         classname: "Yoga",
         trainer: "Marta Mich",
         date: "Wen: 8:00 am",
-        img:"../images/gallery/img05.jpg",
+        img: yoga,
     },
 ]
 
-export default ClassData;
+export default classData;

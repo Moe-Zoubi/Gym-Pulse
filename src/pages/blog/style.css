@@ -1,0 +1,112 @@
+.blog-container{
+    padding: 4rem 15%;
+    display: flex;
+    gap: 4rem;
+}
+
+.blogs{
+    width: 60%;
+}
+
+.side-blog{
+    width: 40%;
+}
+
+.blog-comment{
+    margin-bottom: 3rem;
+}
+
+.blog-comment img{
+    width: 100%;
+}
+
+.blog-comment h2{
+    font-size: 2.5rem;
+}
+
+.blog-comment p{
+    color: #707070;
+    font-size: 1.4rem;
+}
+
+.blog-comment button{
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    color: white;
+    background-color: #FE0000;
+    border:2px solid #FE0000;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.blog-comment button:hover{
+    background-color: white;
+    color: #FE0000;
+}
+
+.search-bar{
+    display: flex;
+}
+
+.search-bar input{
+    border: 2px solid #ececec;
+    font-size: 1.3rem;
+    padding: 1rem;
+    border-radius: 15px 0 0 15px;
+    border-right: none;
+    width: 80%;
+}
+
+.search-bar button{
+    padding: 1rem 1.5rem;
+    background-color: #FE0000;
+    color: white;
+    border-radius: 0 15px 15px 0;
+    border: 2px solid #FE0000;
+    font-size: 1.5rem;
+}
+
+.blog-categories, .latest-blogs{
+    margin-top: 3rem;
+    background-color: #ececec;
+    padding: 0.3rem 2rem;
+}
+
+.blog-categories h3, .latest-blogs h3{
+    font-size: 1.7rem;
+}
+
+.blog-categories ul li{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #cccbcb;
+    font-size: 1.3rem;
+    color: #707070;
+}
+
+.blog-categories ul{
+    padding-bottom: 2rem;
+}
+
+.latest-blog{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.latest-blog img{
+    width: 30%;
+    height: 130px;
+}
+
+.latest-blog p:nth-child(1){
+    color: #686868;
+}
+
+.latest-blog p:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 700;
+}

@@ -58,11 +58,11 @@ ul{
     padding-top: 1rem;
 }
 
-.red-underline{
-    text-decoration: underline;
-    text-decoration-color: #FE0000;
-    text-decoration-thickness: 4px;
+.center{
+    text-align: center;
+    align-items: center;
 }
+
 
 @media screen and (max-width:600px){
     /* navbar */

@@ -1,0 +1,78 @@
+.schedule-container{
+    padding: 4rem 15%;
+}
+
+.schedule-days{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.schedule-days button{
+    padding: 0.5rem 1rem;
+    width: 10%;
+    font-size: 1.3rem;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid #cdcdcd;
+    color: black;
+    transition: all 0.4s ease-in-out;
+}
+
+.active{
+    border: 2px solid #FE0000 !important;
+    background-color: #FE0000 !important;
+    color: white !important;
+}
+
+.schedule-days button:hover{
+    border: 2px solid #FE0000;
+    background-color: #FE0000;
+    color: white;
+}
+
+.schedule-classes{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.schedule-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: #f1f1f1;
+}
+
+.schedule-text{
+    width: 15%;
+}
+
+.schedule-text p:nth-child(1){
+    color: #9c9c9c;
+    font-weight: 600;
+}
+
+.schedule-text p:nth-child(2){
+    color: black;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.schedule-class button{
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    background-color: #7a7a7a;
+    border: 2px solid #7a7a7a;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    transition: all 0.4s ease-in-out;
+}
+
+.schedule-class button:hover{
+    background-color: #FE0000;
+    border: 2px solid #FE0000;
+}

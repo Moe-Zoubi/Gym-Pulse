@@ -1,7 +1,7 @@
 
 
 
-const ScheduleData = [
+const scheduleData = [
     {
         classname: "Fitness",
         time: "9:00am - 10:00am",
@@ -130,4 +130,4 @@ const ScheduleData = [
     },
 ]
 
-export default ScheduleData;
+export default scheduleData;

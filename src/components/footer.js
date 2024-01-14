@@ -1,6 +1,3 @@
-import facebook from "../images/social-media/facebook_icon.png";
-import instagram from "../images/social-media/instagram_icon.png";
-import twitter from "../images/social-media/twitter_icon.png";
 import logo from "../images/homepage/gym-logo.png";
 
 function Footer() {

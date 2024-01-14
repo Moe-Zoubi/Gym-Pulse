@@ -6,7 +6,6 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import { faArrowRightLong, faClock, faUser } from "@fortawesome/free-solid-svg-icons";
 
 
-console.log(classData)
 const Classes = () => {
 
     return(

@@ -1,8 +1,3 @@
-import img01 from "../images/gallery/img11.jpg";
-import img02 from "../images/gallery/img07.jpg";
-import img03 from "../images/gallery/img10.jpg";
-import img04 from "../images/gallery/img04.jpg";
-import img05 from "../images/gallery/img05.jpg";
 
 
 function HomeGallery() {

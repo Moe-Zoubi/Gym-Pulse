@@ -8,8 +8,6 @@ import girl from "../../images/about-us/girl-run.png";
 import text from "../../images/about-us/girl-side-text.png";
 import mountain from "../../images/about-us/mountain.png";
 import target from "../../images/about-us/target.png";
-import history01 from "../../images/about-us/about-img01.jpg";
-import history02 from "../../images/about-us/about-img02.jpg";
 
 const About = () => {
 

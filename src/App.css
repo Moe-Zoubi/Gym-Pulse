@@ -76,6 +76,21 @@ ul{
     }
 }
 
+@media screen and (max-width:900px){
+    /*schedule webpage */
+    .schedule-class{
+        flex-direction: column;
+    }
+    .schedule-text{
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .schedule-class button{
+        margin-top: 1rem;
+    }
+}
+
 @media screen and (max-width:1100px){
     /* navbar */
     .toggle-links{
@@ -83,6 +98,19 @@ ul{
     }
     .links-container{
         display: none;
+    }
+}
+
+@media screen and (max-width:1500px){
+    /* review in homepage*/
+    .review-container img{
+        display: none;
+    }
+    .review-text{
+        position:static !important;
+        width: 80% !important;
+        margin: auto;
+        padding: 2rem 0;
     }
 }
 

@@ -5,13 +5,14 @@
 .schedule-days{
     display: flex;
     gap: 2rem;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-bottom: 3rem;
 }
 
 .schedule-days button{
     padding: 0.5rem 1rem;
-    width: 10%;
+    width: 125px;
     font-size: 1.3rem;
     background-color: transparent;
     border-radius: 30px;

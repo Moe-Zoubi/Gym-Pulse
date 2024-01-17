@@ -175,7 +175,7 @@
     font-size: 1.3rem;
     padding: 5px 20px;
     background-color: #d82d2d;
-    width: max-content;
+    width: fit-content;
 }
 
 .grid-item h3{

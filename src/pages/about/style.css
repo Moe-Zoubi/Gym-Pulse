@@ -70,9 +70,11 @@
 }
 
 .about-img01{
-    background: url(../../images/about-us/about-img01.jpg) center/cover no-repeat   ;
+    background: url(../../images/about-us/about-img01.jpg) center/cover no-repeat;
+    height: 100%;
 }
 
 .about-img02{
-    background: url(../../images/about-us/about-img02.jpg) center/cover no-repeat   ;
+    background: url(../../images/about-us/about-img02.jpg) center/cover no-repeat;
+    height: 100%;
 }

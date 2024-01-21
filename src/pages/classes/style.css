@@ -1,6 +1,6 @@
 .classes-container {
     display: grid;
-    grid-template-columns: repeat(3, minmax(350px, 500px));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     padding: 4rem 15%;
     gap: 2rem;
 }

@@ -107,9 +107,9 @@
 }
 
 .contact-form form button{
-    width: 35%;
+    width: max-content;
     margin: 1rem auto 2rem auto;
-    padding: 1rem 0;
+    padding: 1rem 1rem;
     font-size: 18px;
     color: white;
     background-color: #fa3c3c;

@@ -156,6 +156,21 @@ ul{
 }
 
 @media screen and (max-width:800px){
+    /* homepage */
+    .bmi-text{
+        margin: auto !important;
+        width: 90% !important;
+    }
+    .bmi-text > p{
+        width: 80% !important;
+    }
+    .calculate-bmi form{
+        flex-direction: column;
+    }
+    .calculate-bmi p{
+        justify-content: space-evenly;
+        gap: 0 !important;
+    }
     /* about */
     .about-history{
         grid-template-columns: 1fr !important;
@@ -227,10 +242,6 @@ ul{
     .contact-socials{
         justify-content: center;
     }
-}
-
-
-@media screen and (max-width:900px){
     /*schedule webpage */
     .schedule-class{
         flex-direction: column;

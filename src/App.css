@@ -74,9 +74,79 @@ ul{
         width: 90% !important;
     }
 
+    /*about banner */
+    .about-banner{
+        padding: 2% 0 !important;
+        margin: 0 3rem;
+    }
+
+    /* choose us banner */
+    .choose-text{
+        text-align: center;
+    }
+    .choose-container{
+        padding: 15rem 0 6rem 0 !important;
+        margin: 0 1rem;
+    }
+
+    /*gallery*/
+    .home-gallery{
+        padding: 4rem 0 !important;
+        margin: 0 1rem;
+    }
+    .home-gallery p{
+        width: 90% !important;
+    }
+
+    /* trainer section */
+    .trainer-section{
+        padding: 5rem 0 !important;
+        margin: 0 1rem;
+    }
+    .trainer-section p{
+        width: 90% !important;
+    }
+
+    /*review section */
+    .review-section{
+        padding: 2rem 0 !important;
+        margin: 0 1rem;
+    }
+    .review-text > p{
+        font-size: 1.3rem !important;
+    }
+    .review-name h4 p{
+        font-size: 0.9rem !important;
+    }
+    .review-name  p{
+        font-size: 0.7rem !important;
+    }
+
+    /*classes */
+    .featured-classes{
+        padding: 3% 0 !important;
+        margin: 0 1rem;
+    }
+
+    /*blog banner*/
+    .blog-banner{
+        padding: 2rem 0 !important;
+        margin: 0 1rem;
+    }
+    .blog-banner > p{
+        width: 90% !important;
+    }
+
+    /*pricing section*/
+    .pricing-section{
+        padding: 4rem 0 !important;
+        margin: 0 2rem;
+    }
+
     /* about webpage */
     .about-content{
         padding: 3rem 0 !important;
+        margin: 0 1rem;
     }
 
     /* footer */
@@ -112,6 +182,7 @@ ul{
     /* home page */
     .hero-intro{
         padding: 0 !important;
+        margin: 0 0.5rem !important;
     }
     .hero-text{
         margin: auto;
@@ -121,37 +192,7 @@ ul{
         display: none !important;
     }
 
-    /*about banner */
-    .about-services{
-        flex-direction: column;
-    }
-    .progression, .workout, .nutrition{
-        width: 100% !important;
-    }
-    .workout, .nutrition{
-        margin-top: 2rem !important;
-    }
-    .about-container{
-        flex-direction: column;
-    }
-    .about-us{
-        margin-top: 3rem;
-        width: 100% !important;
-        text-align: center;
-        padding-bottom: 3rem;
-    }
-    .icons-container{
-        flex-direction: column;
-    }
-    .icons-container img{
-        width: 70px !important;
-    }
-    .icons-container div:nth-child(2){
-        border: none !important;
-    }
-    .girl-running{
-        display: none;
-    }
+    
 
 }
 
@@ -171,7 +212,23 @@ ul{
         justify-content: space-evenly;
         gap: 0 !important;
     }
+
     /* about */
+    .about-services{
+        flex-direction: column;
+    }
+    .progression, .workout, .nutrition{
+        width: 100% !important;
+    }
+    .workout, .nutrition{
+        margin-top: 2rem !important;
+    }
+    .icons-container{
+        flex-direction: column;
+    }
+    .icons-container div:nth-child(2){
+        border: none !important;
+    }
     .about-history{
         grid-template-columns: 1fr !important;
     }
@@ -332,10 +389,33 @@ ul{
     }
 }
 
+@media screen and (max-width:1300px) {
+    /*about banner */
+    .about-container{
+        flex-direction: column;
+    }
+    .about-us{
+        margin-top: 3rem;
+        width: 100% !important;
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    .icons-container img{
+        width: 70px !important;
+    }
+    .girl-running{
+        display: none;
+    }
+}
+
 @media screen and (max-width:1500px){
     /* review in homepage*/
     .review-container img{
         display: none;
+    }
+    .review-container{
+        justify-content: center !important;
+        padding-right: 0 !important;
     }
     .review-text{
         position:static !important;

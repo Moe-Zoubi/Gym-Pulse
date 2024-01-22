@@ -233,7 +233,7 @@
 
 .service-banner{
     padding: 2rem 5rem;
-    margin-top: -5rem;
+    top: -5rem;
     position: absolute;
     background-color: #FE0000;
     width: 80%;
@@ -417,22 +417,25 @@
 
 .review-container{
     background-color: rgb(32, 32, 32);
+    display: flex;
+    height: auto;
+    justify-content: end;
+    align-items: center;
+    padding-right: 2rem;
     position: relative;
-    height: 350px;
-    
 }
 
 .review-container img{
-    position: absolute;
+    position:absolute;
+    left: 0;
     bottom: 0;
     border-top-right-radius: 200px;
+    height: 150%;
 }
 
 .review-text{
     width: 50%;
-    position: absolute;
-    right: 5rem;
-    bottom: 10%;
+    margin: 1rem 0;
 }
 
 .review-text > p{

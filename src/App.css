@@ -192,7 +192,10 @@ ul{
         display: none !important;
     }
 
-    
+    /* login */
+    .login-form{
+        width: 80% !important;
+    }
 
 }
 

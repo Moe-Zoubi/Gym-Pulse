@@ -1,0 +1,56 @@
+.login{
+    background-image: url("../../images/homepage/home-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 1rem;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 30rem;
+    margin: 0 auto;
+    padding: 4rem 3rem;
+    color: white;
+}
+
+.login-form label{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.login-form input{
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.login-form input:focus{
+    outline: white;
+    border: 2px solid #FE0000;
+}
+
+.login-form input::placeholder{
+    color: #b2b2b2;
+}
+
+.login-form button{
+    padding: 1rem;
+    color: white;
+    background-color: #FE0000;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 2rem 0;
+    cursor: pointer;
+    border: 2px solid #FE0000;
+}
+
+.login-form p{
+    font-size: 1.2rem;
+}
+
+.login-form p span:hover{
+    cursor: pointer;
+}

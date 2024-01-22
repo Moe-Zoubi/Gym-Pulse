@@ -9,6 +9,7 @@ import Schedule from "./pages/schedule/index";
 import Classes from "./pages/classes/index";
 import Contact from "./pages/contact/index";
 import Gallery from './pages/gallery/index';
+import Login from './pages/login';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/schedule' element={<Schedule />} />
           <Route path='/classes' element={<Classes />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/login' element={<Login />} />
         </Routes>
       </BrowserRouter>
     </div>

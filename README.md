@@ -6,7 +6,7 @@ Live Demo: [Gym Pulse](https://65ae1b8df5229efbd7ff5b86--shiny-madeleine-0755c1.
 
 ### Built With:
 * React JS
-* Vanilla CSs
+* Vanilla CSS
 
 ### Screenshots:
 ![Gym Page](./src/images/readme/gympulse-ss.png)

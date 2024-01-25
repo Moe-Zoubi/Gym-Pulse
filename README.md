@@ -5,8 +5,8 @@ A gym's website offers a wealth of information about fitness, including class sc
 Live Demo: [Gym Pulse](https://65ae1b8df5229efbd7ff5b86--shiny-madeleine-0755c1.netlify.app/)
 
 ### Built With:
->>React JS
->>Vanilla CSs
+* React JS
+* Vanilla CSs
 
 ### Screenshots:
 ![Gym Page](./src/images/readme/gympulse-ss.png)
